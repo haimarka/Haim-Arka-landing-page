@@ -44,7 +44,7 @@
     position: absolute;
     top: 0;
     width: 100%;
-    max-width: 600px;
+    max-width: 90%;
     padding: 2rem;
     margin-left: auto;
     font-size: 1.2rem;
@@ -53,7 +53,7 @@
   }
   
   .content {
-    max-width: 600px;
+    max-width: 80%;
     padding: 2rem;
     padding-top: 5rem;
     flex: 1;
@@ -78,7 +78,7 @@
   }
   
   .description {
-    max-width: 500px;
+    max-width: 100%;
     text-align: right;
   }
   
@@ -119,8 +119,8 @@
     border: 1px solid rgba(255, 255, 255, 0.235);
     background-color: black;
     top: 0;
-    width: 100%;
-    max-width: 760px;
+    width: 48%;
+    max-width: 100%;
     padding: 2rem;
     list-style: none;
     display: flex;
@@ -145,7 +145,7 @@
   }
   
   .image {
-    max-width: 600px;
+    max-width: 95%;
     padding: 2rem;
     padding-top: 5rem;
     flex: 1;
@@ -155,7 +155,7 @@
   }
   
   .image img {
-    max-width: 400px;
+    max-width: 100%;
   }
   
   .image-content {
@@ -478,9 +478,34 @@ color: var(--extra-light)
     .action-btns {
       justify-content: center;
     }
+    
+    .nav-links{
+      max-width: 31%;
+    }
   }
 
-  @media screen and (max-width: 425px) {
+  @media screen and (max-width: 768px) {
+
+    .nav-links{
+      max-width: 100rem;
+      width: 100vw;
+    }
+
+    .content h1{
+      margin-left: -10%;
+    }
+
+    .content p{
+      margin-left: -10%;
+    }
+
+    .content .action-btns{
+      margin-left: -10%;
+    }
+  }
+
+
+  @media screen and (max-width: 426px) {
     .projects{
       width: 100%;
     }
@@ -521,6 +546,15 @@ color: var(--extra-light)
 
     .form-button{
       color: black;
+    }
+
+    .nav-links{
+      max-width: 100%;
+      width: 100%;
+    }
+
+    .nav-links a li{
+      width: 110%;
     }
     
   }
