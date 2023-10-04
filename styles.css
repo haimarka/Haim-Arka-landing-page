@@ -324,11 +324,13 @@ form{
   border-radius: 5rem;
   cursor: pointer;
   transition: .3s;
+  color: black;
 }
 
 .form-button:hover{
   background: #5b5b5b;
   transition: .3s;
+  color: black;
 }
 
 
