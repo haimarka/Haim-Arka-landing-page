@@ -22,7 +22,7 @@ sr.reveal(`.about-me, .footer_container`, {
     interval: 150
 })
 
-sr.reveal(`.container-left, .projects`, {
+sr.reveal(`.container__left, .projects`, {
     origin: 'left'
 })
 

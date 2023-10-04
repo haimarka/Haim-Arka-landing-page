@@ -451,6 +451,10 @@ color: var(--extra-light)
   cursor: pointer;
 }
 
+.footer_content a{
+  color: white;
+}
+
 
 
 @media (width < 900px) {
