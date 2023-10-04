@@ -501,7 +501,7 @@ color: var(--extra-light)
   }
 }
 
-@media (width < 390px) {
+/* @media (width < 390px) {
   body{
     width: auto;
   }
@@ -513,4 +513,4 @@ color: var(--extra-light)
   .nav__links{
     width: auto;
   }
-}
+} */
